@@ -21,6 +21,10 @@ Creating a readable UI that is mobile friendly size
 User can adjust speed (aka difficulty level)
 Add "upgrades" for Flappy Bird
 Add enemies
+Particles (math equation that dynamically generates sprites)
+Fine tune existing animations
+Multiple procedural levels
+Sweet theme song
 
 
 ## Quality Rubric
