@@ -5,7 +5,7 @@ Create and deploy a personal project of a [simplified version of Flappy Bird](ht
 
 
 ## User Story:
-- Main menu at start and end of game that includes settings
+- Main menu at start and end of game that includes settings to select game mode and difficulty level (<-- see stretch goal)
 - User can move "flappy bird" up and down, not left and right
 - Game scrolls from right to left and an even speed
 
@@ -17,14 +17,15 @@ Create and deploy a personal project of a [simplified version of Flappy Bird](ht
 - Creating a readable UI that is mobile friendly size
 - Particles (math equation that dynamically generates sprites)
 - Fine tune existing animations
-- Multiple procedural levels
+- Minimum of 3 additional game modes
 
 
 ## Stretch Goals:
-- User can adjust speed (aka difficulty level)
+- Make 2-player over a network using 2 separate computers
+- User can adjust game speed (aka difficulty level)
 - Add "upgrades" for Flappy Bird
 - Add enemies
-- Sweet theme song
+- Add Sweet theme song
 
 
 ## Quality Rubric
@@ -34,7 +35,7 @@ Submit a Prrr at the end of day Tuesday-Friday
 ## Daily goals
 |Day| Mon | Tues | Wed | Thurs | Fri |
 |------------|------------|------------|------------|------------|------------|
-||Read through the entire tutorial|Complete tutorial and work on animations|finish animations and Sprites/particles|Focus on multiple levels|Make Menue/settings||
+||Read through the entire tutorial|Complete tutorial and work on animations|finish animations and Sprites/particles|Focus on multiple levels|Make Menue/settings and stretch goals||
 |Time|3 hrs|5 hrs|7 hrs|7 hrs|7 hrs|
 
 
