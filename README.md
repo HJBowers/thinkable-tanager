@@ -34,7 +34,7 @@ Submit a Prrr at the end of day Tuesday-Friday
 ## Daily goals
 |Day| Mon | Tues | Wed | Thurs | Fri |
 |------------|------------|------------|------------|------------|------------|
-||Read through the entire tutorial|Complete tutorial|Add Sprites/particles and animations|Focus on multiple levels|Make Menue/settings||
+||Read through the entire tutorial|Complete tutorial and work on animations|finish animations and Sprites/particles|Focus on multiple levels|Make Menue/settings||
 |Time|3 hrs|5 hrs|7 hrs|7 hrs|7 hrs|
 
 
