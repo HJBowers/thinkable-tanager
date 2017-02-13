@@ -5,7 +5,7 @@ Create and deploy a personal project of a [simplified version of Flappy Bird](ht
 
 
 ## User Story:
-Main menu at start and end of game
+Main menu at start and end of game that includes settings
 User can move "flappy bird" up and down, not left and right
 Game scrolls from right to left and an even speed
 
@@ -15,15 +15,15 @@ Phaser framework
 Javascript
 Deployment on time
 Creating a readable UI that is mobile friendly size
+Particles (math equation that dynamically generates sprites)
+Fine tune existing animations
+Multiple procedural levels
 
 
 ## Stretch Goals:
 User can adjust speed (aka difficulty level)
 Add "upgrades" for Flappy Bird
 Add enemies
-Particles (math equation that dynamically generates sprites)
-Fine tune existing animations
-Multiple procedural levels
 Sweet theme song
 
 
@@ -34,7 +34,7 @@ Submit a Prrr at the end of day Tuesday-Friday
 ## Daily goals
 |Day| Mon | Tues | Wed | Thurs | Fri |
 |------------|------------|------------|------------|------------|------------|
-||Read through the entire tutorial, Finish the "Setup" section|Complete sections "Empty Project" and "The Bird"|Complete sections "Testing" and "The Pipes"|Complete sections "Scoring and Collisions" and "Add Flying Animation"|Complete sections "Add Dead Animation" and "Add Sound"||
+||Read through the entire tutorial|Complete tutorial|Add Sprites/particles and animations|Focus on multiple levels|Make Menue/settings||
 |Time|3 hrs|5 hrs|7 hrs|7 hrs|7 hrs|
 
 
