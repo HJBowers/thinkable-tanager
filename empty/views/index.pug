@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  a(href='/users') This is the link to the signup page
+
+  form(method='post' action='/users/login')
+    input(type='text' name='user_name')
+    input(type='password' name='password')
+    input(type='submit')
