@@ -35,18 +35,6 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 app.use('/users', users);
-
-// const ensureLoggedIn = (req, res) => {
-//   console.log('req.session.user::', req.session.user)
-//   if(!( req.session.user)) {
-//     res.redirect('/users/login')
-//   }
-// }
-//
-// app.use(ensureLoggedIn)
-
-// app.use(express.static(path.join(__dirname, '..', '..', 'client')));
-
 app.use('/', index);
 
 
@@ -70,24 +58,16 @@ app.use(function(err, req, res, next) {
 
 io.on('connection', function (socket) {
   socket.emit('news', { hello: 'world' });
-  // socket.on('ping', function (data) {
-  //   console.log("received ping", data.a);
-  //   socket.emit('pong', { frog: 45 })
-  // });
-  socket.on('jumped', function (data) {
-    io.emit( 'jumped', data)
-  });
 
-  socket.on('piped', function (data) {
-    io.emit( 'piped', data)
-  });
   socket.on('signal', function (data) {
-    io.emit( 'signal', data)
+    console.log('Are we still getting signals', data.sendingId);
+    socket.broadcast.emit( 'signal', data)
   });
 
   socket.on('sendId', function (data) {
-    socket.broadcast.emit( 'sendId', data)
+    io.emit( 'sendId', data)
   });
+
 });
 
 module.exports = httpServer;
