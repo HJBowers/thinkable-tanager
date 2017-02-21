@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h3 This is the signup page
+  a(href='/') This is the link to the login page
+
+  form(method='post' action='/users/signup')
+    input(type='text' name='user_name')
+    input(type='password' name='password')
+    input(type='submit')
